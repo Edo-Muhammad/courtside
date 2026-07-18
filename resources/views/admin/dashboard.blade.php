@@ -100,6 +100,15 @@
     <div class="col-md-4 mb-3">
         <div class="card shadow-sm">
             <div class="card-body">
+                <h5 class="card-title">Kelola Ulasan</h5>
+                <p class="card-text text-muted">Lihat dan hapus ulasan dari penyewa.</p>
+                <a href="{{ route('admin.ulasan.index') }}" class="btn btn-sm btn-navy">Buka</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body">
                 <h5 class="card-title">Laporan Booking</h5>
                 <p class="card-text text-muted">Export laporan ke Excel/PDF per periode.</p>
                 <a href="{{ route('admin.laporan.index') }}" class="btn btn-sm btn-navy">Buka</a>
